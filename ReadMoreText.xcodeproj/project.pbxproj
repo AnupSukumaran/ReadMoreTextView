@@ -3,25 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D08EAF524C5A8570021951B /* SASReadMoreTxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */; };
-		9D08EAF824C5A8C20021951B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF724C5A8C20021951B /* String+Ext.swift */; };
-		9D08EAFA24C5A8E10021951B /* NSLayoutManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */; };
 		9D6D509124C592A300A41392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509024C592A300A41392 /* AppDelegate.swift */; };
 		9D6D509324C592A300A41392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509224C592A300A41392 /* SceneDelegate.swift */; };
 		9D6D509524C592A300A41392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509424C592A300A41392 /* ViewController.swift */; };
 		9D6D509824C592A300A41392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D509624C592A300A41392 /* Main.storyboard */; };
 		9D6D509A24C592A600A41392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D509924C592A600A41392 /* Assets.xcassets */; };
 		9D6D509D24C592A600A41392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6D509B24C592A600A41392 /* LaunchScreen.storyboard */; };
+		9D84AD7B24C5AF76003CFFB0 /* SASReadMoreTxtView in Frameworks */ = {isa = PBXBuildFile; productRef = 9D84AD7A24C5AF76003CFFB0 /* SASReadMoreTxtView */; };
+		9D84AD7D24C5BCAC003CFFB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D84AD7C24C5BCAC003CFFB0 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SASReadMoreTxtView.swift; sourceTree = "<group>"; };
-		9D08EAF724C5A8C20021951B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutManager+Ext.swift"; sourceTree = "<group>"; };
 		9D6D508D24C592A300A41392 /* ReadMoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6D509024C592A300A41392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D6D509224C592A300A41392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +26,8 @@
 		9D6D509924C592A600A41392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D6D509C24C592A600A41392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D6D509E24C592A600A41392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D84AD7824C5AF6D003CFFB0 /* SASReadMoreTxtView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SASReadMoreTxtView; path = "../../MY FRAMEWORKS/SASReadMoreTxtView"; sourceTree = "<group>"; };
+		9D84AD7C24C5BCAC003CFFB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,27 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D84AD7B24C5AF76003CFFB0 /* SASReadMoreTxtView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9D08EAF624C5A89F0021951B /* SASReadMoreTxtView */ = {
-			isa = PBXGroup;
-			children = (
-				9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */,
-				9D08EAF724C5A8C20021951B /* String+Ext.swift */,
-				9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */,
-			);
-			path = SASReadMoreTxtView;
-			sourceTree = "<group>";
-		};
 		9D6D508424C592A300A41392 = {
 			isa = PBXGroup;
 			children = (
+				9D84AD7824C5AF6D003CFFB0 /* SASReadMoreTxtView */,
 				9D6D508F24C592A300A41392 /* ReadMoreText */,
 				9D6D508E24C592A300A41392 /* Products */,
+				9D84AD7924C5AF76003CFFB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +63,6 @@
 		9D6D508F24C592A300A41392 /* ReadMoreText */ = {
 			isa = PBXGroup;
 			children = (
-				9D08EAF624C5A89F0021951B /* SASReadMoreTxtView */,
 				9D6D509024C592A300A41392 /* AppDelegate.swift */,
 				9D6D509224C592A300A41392 /* SceneDelegate.swift */,
 				9D6D509424C592A300A41392 /* ViewController.swift */,
@@ -80,8 +70,16 @@
 				9D6D509924C592A600A41392 /* Assets.xcassets */,
 				9D6D509B24C592A600A41392 /* LaunchScreen.storyboard */,
 				9D6D509E24C592A600A41392 /* Info.plist */,
+				9D84AD7C24C5BCAC003CFFB0 /* SecondViewController.swift */,
 			);
 			path = ReadMoreText;
+			sourceTree = "<group>";
+		};
+		9D84AD7924C5AF76003CFFB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +98,9 @@
 			dependencies = (
 			);
 			name = ReadMoreText;
+			packageProductDependencies = (
+				9D84AD7A24C5AF76003CFFB0 /* SASReadMoreTxtView */,
+			);
 			productName = ReadMoreText;
 			productReference = 9D6D508D24C592A300A41392 /* ReadMoreText.app */;
 			productType = "com.apple.product-type.application";
@@ -155,11 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D08EAFA24C5A8E10021951B /* NSLayoutManager+Ext.swift in Sources */,
-				9D08EAF524C5A8570021951B /* SASReadMoreTxtView.swift in Sources */,
+				9D84AD7D24C5BCAC003CFFB0 /* SecondViewController.swift in Sources */,
 				9D6D509524C592A300A41392 /* ViewController.swift in Sources */,
 				9D6D509124C592A300A41392 /* AppDelegate.swift in Sources */,
-				9D08EAF824C5A8C20021951B /* String+Ext.swift in Sources */,
 				9D6D509324C592A300A41392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +357,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D84AD7A24C5AF76003CFFB0 /* SASReadMoreTxtView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SASReadMoreTxtView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D6D508524C592A300A41392 /* Project object */;
 }

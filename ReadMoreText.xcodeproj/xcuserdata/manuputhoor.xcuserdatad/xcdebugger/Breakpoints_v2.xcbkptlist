@@ -7,32 +7,60 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "512E68D7-99D0-4113-B065-87509DED693A"
+            uuid = "61638017-F531-4E0F-8655-FA8E1888DFF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ReadMoreText/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "2622ECAA-7185-4ADF-9290-24BF5613A466"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ReadMoreText/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "tapAction()"
-            landmarkType = "7">
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F19C5D0F-4178-454D-AE2D-4038CF981125"
-            shouldBeEnabled = "Yes"
+            uuid = "2F8F4A56-7891-4F63-B2D2-27F094A5F04D"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ReadMoreText/SASReadMoreTxtView/SASReadMoreTxtView.swift"
+            filePath = "../../MY FRAMEWORKS/SASReadMoreTxtView/Sources/SASReadMoreTxtView/SASReadMoreTxtView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "263"
-            endingLineNumber = "263"
-            landmarkName = "hitTest(_:with:)"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "SASReadMoreTxtView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28A3C699-9BB2-4D42-A2CF-2AA2E4483678"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../MY FRAMEWORKS/SASReadMoreTxtView/Sources/SASReadMoreTxtView/SASReadMoreTxtView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "tapGestAction()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
