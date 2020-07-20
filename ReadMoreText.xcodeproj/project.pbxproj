@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D08EAF524C5A8570021951B /* SASReadMoreTxtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */; };
+		9D08EAF824C5A8C20021951B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF724C5A8C20021951B /* String+Ext.swift */; };
+		9D08EAFA24C5A8E10021951B /* NSLayoutManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */; };
 		9D6D509124C592A300A41392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509024C592A300A41392 /* AppDelegate.swift */; };
 		9D6D509324C592A300A41392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509224C592A300A41392 /* SceneDelegate.swift */; };
 		9D6D509524C592A300A41392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D509424C592A300A41392 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SASReadMoreTxtView.swift; sourceTree = "<group>"; };
+		9D08EAF724C5A8C20021951B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutManager+Ext.swift"; sourceTree = "<group>"; };
 		9D6D508D24C592A300A41392 /* ReadMoreText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMoreText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6D509024C592A300A41392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D6D509224C592A300A41392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D08EAF624C5A89F0021951B /* SASReadMoreTxtView */ = {
+			isa = PBXGroup;
+			children = (
+				9D08EAF424C5A8570021951B /* SASReadMoreTxtView.swift */,
+				9D08EAF724C5A8C20021951B /* String+Ext.swift */,
+				9D08EAF924C5A8E10021951B /* NSLayoutManager+Ext.swift */,
+			);
+			path = SASReadMoreTxtView;
+			sourceTree = "<group>";
+		};
 		9D6D508424C592A300A41392 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,7 @@
 		9D6D508F24C592A300A41392 /* ReadMoreText */ = {
 			isa = PBXGroup;
 			children = (
+				9D08EAF624C5A89F0021951B /* SASReadMoreTxtView */,
 				9D6D509024C592A300A41392 /* AppDelegate.swift */,
 				9D6D509224C592A300A41392 /* SceneDelegate.swift */,
 				9D6D509424C592A300A41392 /* ViewController.swift */,
@@ -138,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D08EAFA24C5A8E10021951B /* NSLayoutManager+Ext.swift in Sources */,
+				9D08EAF524C5A8570021951B /* SASReadMoreTxtView.swift in Sources */,
 				9D6D509524C592A300A41392 /* ViewController.swift in Sources */,
 				9D6D509124C592A300A41392 /* AppDelegate.swift in Sources */,
+				9D08EAF824C5A8C20021951B /* String+Ext.swift in Sources */,
 				9D6D509324C592A300A41392 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

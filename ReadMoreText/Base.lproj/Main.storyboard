@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8H9-d3-dTJ" customClass="TextViewClass" customModule="ReadMoreText" customModuleProvider="target">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8H9-d3-dTJ" customClass="SASReadMoreTxtView" customModule="ReadMoreText" customModuleProvider="target">
                                 <rect key="frame" x="20" y="44" width="374" height="199"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -31,6 +31,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="readMoreText" value="Read"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="readMoreDelegate" destination="BYZ-38-t0r" id="RJS-cB-Axe"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -42,7 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="tv" destination="8H9-d3-dTJ" id="LVo-Hf-dBg"/>
+                        <outlet property="tv" destination="8H9-d3-dTJ" id="y7F-1F-Bud"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
